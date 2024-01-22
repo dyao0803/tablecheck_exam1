@@ -1,0 +1,30 @@
+{
+  "lat": 14.5568,
+  "lon": 121.0211,
+  "timezone": "Asia/Manila",
+  "timezone_offset": 28800,
+  "current": {
+    "dt": 1705757406,
+    "sunrise": 1705703090,
+    "sunset": 1705744083,
+    "temp": 299.15,
+    "feels_like": 299.15,
+    "pressure": 1014,
+    "humidity": 86,
+    "dew_point": 296.63,
+    "uvi": 0,
+    "clouds": 75,
+    "visibility": 10000,
+    "wind_speed": 1.79,
+    "wind_deg": 96,
+    "wind_gust": 1.79,
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04n"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 3.1
+  NewCops: enable
+  Exclude:
+    - bin/**/*
+    - config/**/*
+    - db/**/*
+    - public/**/*
+    - spec/*_helper.rb
+    - spec/factories/**/*
+    - spec/fixtures/**/*
+    - spec/support/**/*
+    - vendor/bundle/**/*
+
+Rails:
+  Enabled: true
+
+Layout/LineLength:
+  Max: 120
+
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/HashSyntax:
+  Enabled: false
+
+Style/StructInheritance:
+  Enabled: false
+
+Metrics/BlockLength:
+  CountComments: false
+  Max: 5
+  IgnoredMethods:
+    - attribute
+    - configure
+    - context
+    - define_method
+    - describe
+    - draw
+    - expect
+    - group
+    - included
+    - instance_eval
+    - it
+    - let
+    - namespace
+    - shared_examples
+    - shared_examples_for
+    - task
+    - xit
+
+Metrics/MethodLength:
+  Max: 15
+
+RSpec/ExampleLength:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/AnyInstance:
+  Enabled: false
+
+Lint/MissingSuper:
+  Enabled: false

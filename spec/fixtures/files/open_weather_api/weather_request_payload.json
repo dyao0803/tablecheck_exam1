@@ -1,0 +1,6 @@
+{
+  "appid": "weather_key",
+  "exclude": "minutely,hourly,daily,alerts",
+  "lat": 14.5567949,
+  "lon": 121.0211226
+}
