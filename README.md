@@ -31,8 +31,9 @@ cp config/storage.yml.sample config/storage.yml
 ### Run on server
 `rails s`
 
-
 ---
+## [ENDPOINT DOCUMENTATION LINK](https://github.com/dyao0803/tablecheck_exam1/blob/main/README_ENDPOINT.md)
+
 ## Future Development
 to accommodate larger audiences, the following features should be considered
 - storage of location parameters for lat/long
